@@ -1,8 +1,10 @@
-<script setup></script>
+<script setup>
+import Main from "./components/Main.vue";
+</script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline bg-blue-900">Hello world!</h1>
+  <div class="w-[100%] h-[100%]">
+    <Main />
   </div>
 </template>
 
