@@ -47,18 +47,3 @@ library.add(faXmark);
 
 const app = createApp(App).component("font-awesome-icon", FontAwesomeIcon);
 app.use(Antd).mount("#app");
-
-{
-  /* <font-awesome-icon icon="fa-brands fa-sketch" /> V
-<font-awesome-icon icon="fa-regular fa-circle" /> V 
-<font-awesome-icon icon="fa-regular fa-circle-info" /> V -> questions
-<font-awesome-icon icon="fa-regular fa-location-dot" /> V 
-<font-awesome-icon icon="fa-regular fa-circle-xmark" /> V 
-<font-awesome-icon icon="fa-light fa-circle-star" /> V
-<font-awesome-icon icon="fa-light fa-circle-heart" /> V 
-<font-awesome-icon icon="fa-brands fa-sketch" /> V 
-<font-awesome-icon icon="fa-duotone fa-nfc-magnifying-glass" /> V 
-<font-awesome-icon icon="fa-regular fa-head-side-heart" /> V 
-<font-awesome-icon icon="fa-regular fa-comments" />
-<font-awesome-icon icon="fa-light fa-user" /> */
-}

@@ -4,10 +4,13 @@
 
 #bg-img {
   position: relative;
-  width: 90%;
+  width: 95%;
   height: 600px;
-  background: url("https://znews-photo.zingcdn.me/w660/Uploaded/qfssu/2022_09_21/121578577_2684859088403851_6321642611131446107_n_1.jpg")
+  margin: 0 auto;
+  /* background: url("https://znews-photo.zingcdn.me/w660/Uploaded/qfssu/2022_09_21/121578577_2684859088403851_6321642611131446107_n_1.jpg")
     center center no-repeat;
+  background: url("https://i.vietgiaitri.com/2018/12/16/girl-xinh-han-quoc-nhung-hinh-anh-dep-nhat-ve-cac-my-nhan-xu-kim-bed5bb.png")
+    center center no-repeat; */
   background-size: cover;
   border-radius: 27px;
   overflow: hidden;
@@ -24,4 +27,14 @@
   background-image: linear-gradient(to bottom right, #57606f, #d3d3d3);
   background-image: linear-gradient(to bottom right, #dff9fb, #000000);
   opacity: 0.6;
+}
+
+li.in-deck:nth-child(3) {
+  top: 2px;
+  transform: translate(2px, 2px) rotate(0.4deg);
+}
+
+li.in-deck:nth-child(2) {
+  top: 4px;
+  transform: translate(-4px, -2px) rotate(-1deg);
 }
