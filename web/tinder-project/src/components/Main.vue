@@ -173,6 +173,23 @@ export default {
       });
     },
     nextImage() {
+      // Handle DOM manipulation
+      const allSlide = document.querySelectorAll(`[id^="slide-"]`);
+      allSlide.forEach((el) => {
+        el.classList.remove("bg-white");
+        if (!el.classList.contains("bg-slate-400")) {
+          el.classList.add("bg-slate-400");
+        }
+      });
+      if (this.currentImageIndex == this.girlArray.data.image.length - 1) {
+        document.getElementById(`slide-0`).classList.add("bg-white");
+      } else {
+        const currentSlide = document.getElementById(
+          `slide-${this.currentImageIndex + 1}`
+        );
+        currentSlide.classList.add("bg-white");
+      }
+
       if (this.currentImageIndex == this.girlArray.data.image.length - 1) {
         this.currentImageIndex = 0;
         return;
